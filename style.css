@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+
+
+.societybin{
+    color:rgb(60, 234, 89);
+    width: 22ch;
+    animation: typing 2s steps(22), 
+    blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    position: absolute;
+    top:5%;
+    left: 35%;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+  .box{
+    position:absolute;
+    top: 15%;
+    left: 35%;
+    color:aliceblue; 
+  }
+
+  .box2{
+    position:absolute;
+    top: 55%;
+    left: 35%;
+    color:aliceblue; 
+  }
